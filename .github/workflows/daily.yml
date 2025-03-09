@@ -1,7 +1,7 @@
 name: update-demo-daily
 on:
   schedule:
-    - cron: "30 9,11,13,15,17,19,21 * * *" # every day at 6am
+    - cron: "31 7,9,11,13,15,17,19,21 * * *" # every day at 6am
   push:
     tags:
       - "refresh-github-page" # to manually trigger a refresh
